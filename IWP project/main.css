@@ -1,0 +1,66 @@
+body{
+  background-color: white;
+}
+
+.backv{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  }
+
+
+.center-div{
+  background-color: rgba(247, 247, 247, 0.35);
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 0 auto;
+  width: 300px;
+}
+.textbox-style{
+  padding: 4px 0;
+  border:2px solid black;
+  border-radius: 10px;
+}
+.margin-buttom-12{
+  margin-bottom: 12px;
+}
+#errMsg{
+  color:red;
+}
+button{
+  border:0;
+  border-radius: 40px;
+  font-size: 13pt;
+  padding: 5px 15px;
+  background-color: white;
+  color:black;
+}
+button:hover{
+  background-color: rgb(69, 127, 235);
+  color:black;
+  border: 1px solid black;
+}
+.switch:hover{
+  color:blue;
+}
+#register-portal,#portal,#depoist-portal,#withdraw-portal,#transfer-portal{
+  display: none;
+}
+h1, h2,h4, h5,h6{
+  display: inline-block;
+  color: white;
+}
+
+label{
+color: white;
+}
